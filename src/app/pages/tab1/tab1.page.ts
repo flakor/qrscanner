@@ -42,7 +42,7 @@ export class Tab1Page {
      }).catch(err => {
          console.log('Error', err);
         //  this.dataLocal.guardarRegistro('QRCode', 'http://www.google.cl');
-         this.dataLocal.guardarRegistro('QRCode', 'geo:40.73151796986687,-74.06087294062502');
+        //  this.dataLocal.guardarRegistro('QRCode', 'geo:40.73151796986687,-74.06087294062502');
   
      });
   }

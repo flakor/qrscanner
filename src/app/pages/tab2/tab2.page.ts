@@ -13,6 +13,7 @@ export class Tab2Page {
   enviarCorreo(){
 
     console.log('Enviando Correo....');
+    this.dataLocal.enviarCorreo();
     
 
   }
