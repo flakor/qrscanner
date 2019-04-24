@@ -17,17 +17,17 @@ export class Tab1Page {
   constructor(private barcodeScanner: BarcodeScanner,
               private dataLocal: DataLocalService){}
   ionViewDidEnter(){
-    console.log('viewdidenter');
+    // console.log('viewdidenter');
     
   }
 
   ionViewDidLeave(){
-    console.log('ionViewDidLeave');
+    // console.log('ionViewDidLeave');
     
   }
 
   ionViewWillEnter(){
-    console.log('viewWillEnter');
+    // console.log('viewWillEnter');
     this.scan();
     
   }
@@ -42,6 +42,7 @@ export class Tab1Page {
      }).catch(err => {
          console.log('Error', err);
          this.dataLocal.guardarRegistro('QRCode', 'http://www.google.cl');
+  
      });
   }
 }

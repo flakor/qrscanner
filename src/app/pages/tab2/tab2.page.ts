@@ -17,8 +17,8 @@ export class Tab2Page {
 
   }
 
-  abrirRegistro(registro){
-    
+   abrirRegistro( registro ){
+    this.dataLocal.abrirRegistro(registro);
   }
 
 }
